@@ -1,0 +1,160 @@
+﻿body {
+    background: #EECDA3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 1.6em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card-outline {
+    background: #FFFFFF;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+svg {
+    display: block;
+}
+
+section {
+    position: relative;
+    text-align: center;
+}
+
+footer, #subject {
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+footer {
+    clear: left;
+    border-radius: 0 0 10px 10px;
+}
+
+
+.img-header {
+    margin-bottom: -80px;
+}
+
+.code-block {
+    padding: 5px;
+    background: #272822;
+}
+
+.main-icon {
+    padding: 20px;
+    width: 90px;
+}
+
+.q_a,
+.example,
+.math,
+.misc,
+.misc2,
+.note,
+.diagram-description,
+.list,
+.block-one,
+.block-two,
+.block-three,
+.block-four {
+    padding: 20px;
+}
+
+.example,
+.note,
+.misc,
+.misc2,
+.block-one,
+.block-two,
+.block-three,
+.block-four, {
+    overflow-wrap: break-word;
+    font-size: 14px;
+    text-align: left;
+}
+
+.q_a {
+    background: #123123;
+    color: #fff;
+}
+
+.list {
+    border-left: 6px solid #123123;
+    background: #Fbd290;
+    color: #123123;
+}
+
+.example {
+    border-left: 6px solid #fff;
+    background: #CB343F;
+    color: #fff;
+}
+
+.misc {
+    border-left: 6px solid #FFCB00;
+    background: #2D4A99;
+    color: #FFCB00;
+}
+
+.diagram {
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.diagram, .diagram-description {
+    background: #fff;
+    color: #9f9f9f;
+}
+
+.diagram-description {
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    font-size: 13px;
+}
+
+#subject, footer, footer a {
+    background: #58ffc0;
+    color: #fff;
+}
+
+.math {
+    background: #EECDA3;
+    background: -webkit-linear-gradient(to left, #EF629F, #EECDA3);
+    background: linear-gradient(to left, #EF629F, #EECDA3);
+}
+
+.misc2 {
+    border-left: 6px solid #EEFFD2;
+    background: #6489B6;
+    color: #EEFFD2;
+}
+
+.note {
+  border-left: 6px solid #123123;
+  background: #efefef;
+  color: #123123;
+}
+
+.block-one,
+.block-two,
+.block-three,
+.block-four {
+    border-left: 6px solid #fff;
+    background: #CB343F;
+    color: #fff;
+}
